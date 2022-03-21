@@ -1,5 +1,4 @@
 {
     "watchForFileChanges" : true,
-    "defaultCommandTimeout" : 5000,
-    "projectId": "71xkh8"
+    "defaultCommandTimeout" : 5000
 }
