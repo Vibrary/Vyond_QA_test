@@ -12,7 +12,7 @@ describe('Login to JOOR showroom', () => {
         //cy.wait(10000);
 
         cy.get('#username')
-            .type('istaging-ysl@joortest.com');
+            .type('istaging-celine@joortest.com');
 
         cy.get('#password')
             .type('Testistaging123!');
@@ -20,7 +20,7 @@ describe('Login to JOOR showroom', () => {
         cy.get('#kc-login')
             .click();
 
-        cy.visit('https://www.jooraccess.com/showroom/collections/U2hvd3Jvb21Db2xsZWN0aW9uOjMzMTU=');
+        cy.visit('https://www.jooraccess.com/showroom/collections/U2hvd3Jvb21Db2xsZWN0aW9uOjMzMjY=');
 
     })
 

@@ -1,7 +1,7 @@
 
 it('visit', () => {
 
-    cy.visit('http://35.224.124.127:5618/0b96870d-089a-416f-8e63-88ad375a7a28');
+    cy.visit('http://34.122.35.109:54116/b868a8fc-576c-430d-b506-8f4dfec4b2cd?group=529775a2-00fc-427b-aa22-4f86232c02db&index=1');
     cy.wait(10000);
 //    cy.get('.social > :nth-child(3) > .isif').click();
 
