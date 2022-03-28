@@ -13,6 +13,6 @@ it('vrviewer-feature-site', () => {
         failOnStatusCode : false
     });
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('white-label/hancan-v5');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('white-label/zuellig-v2');
     cy.get('#yui-gen1-button').click();
 })

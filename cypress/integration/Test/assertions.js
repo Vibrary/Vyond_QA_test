@@ -1,6 +1,6 @@
 /// <reference types = 'cypress'/>
 
-it('learnin assertion', () => {
+it('learning assertion', () => {
 
     cy.visit('https://example.cypress.io/');
     cy.contains('get').click();

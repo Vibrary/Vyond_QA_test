@@ -13,6 +13,6 @@ it('vreditor-feature-site-k8s-US', () => {
         failOnStatusCode : false
     });
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/2d-362-fix-i18n-analytis-management-column');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('fix/qa-296-login-records-option');
     cy.get('#yui-gen1-button').click();
 })

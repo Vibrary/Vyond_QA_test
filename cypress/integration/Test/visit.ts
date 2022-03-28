@@ -1,8 +1,12 @@
 
+Cypress.on('uncaught:exception', (err, ruunable) => {
+    return false;
+})
+
+
 it('visit', () => {
 
-    cy.visit('http://34.122.35.109:54116/b868a8fc-576c-430d-b506-8f4dfec4b2cd?group=529775a2-00fc-427b-aa22-4f86232c02db&index=1');
+    cy.visit('https://livetour.istaging.com/7536259b-232e-43c7-ad0f-ac99bad89802?group=5a49f680-73a8-49e4-b417-56599091cee5&index=1');
     cy.wait(10000);
-//    cy.get('.social > :nth-child(3) > .isif').click();
 
 })
