@@ -2,8 +2,8 @@ export class LoginEditorPage {
 
     loginEditorPage_username = ':nth-child(1) > :nth-child(2) > .form-control';
     loginEditorPage_password = ':nth-child(2) > :nth-child(2) > .form-control';
-    loginEditorPage_loginbutton = '.btn';
-    loginEditorPage_waitforlogin = 5000;
+    loginEditorPage_loginButton = '.btn';
+    loginEditorPage_waitForLogin = 5000;
 
     navigate(url : string) {
         cy.visit(url);
@@ -18,8 +18,8 @@ export class LoginEditorPage {
     }
 
     clickLogin() {
-        cy.get(this.loginEditorPage_loginbutton).click();
-        cy.wait(this.loginEditorPage_waitforlogin);
+        cy.get(this.loginEditorPage_loginButton).click();
+        cy.wait(this.loginEditorPage_waitForLogin);
     }
 
 }

@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, ruunable) => {
 
 it('visit', () => {
 
-    cy.visit('https://livetour.istaging.com/7536259b-232e-43c7-ad0f-ac99bad89802?group=5a49f680-73a8-49e4-b417-56599091cee5&index=1');
-    cy.wait(10000);
+    cy.visit('https://livetour.istaging.com/d7ec4692-61c1-4160-a7f2-98e36e406314?pilot=TzbfL09ymFL4CogI7eKE&index=1');
+    cy.wait(5000);
 
 })

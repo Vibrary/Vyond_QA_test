@@ -11,8 +11,8 @@ it('vreditor-feature-site-k8s-US', () => {
         
         /* use 'failOnStatusCode' for redirecturl */
         failOnStatusCode : false
-    });
+    }).wait(3000);
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('fix/qa-296-login-records-option');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/220310-ar-maker-tag');
     cy.get('#yui-gen1-button').click();
 })

@@ -11,8 +11,8 @@ it('vrviewer-feature-site', () => {
         
         /* use 'failOnStatusCode' for redirecturl */
         failOnStatusCode : false
-    });
+    }).wait(3000);
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('white-label/zuellig-v2');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/220310-ar-maker-tag');
     cy.get('#yui-gen1-button').click();
 })
