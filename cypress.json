@@ -1,4 +1,11 @@
 {
     "watchForFileChanges" : true,
-    "defaultCommandTimeout" : 5000
+    "defaultCommandTimeout" : 5000,
+    "reporterOptions" : {
+        "charts" : true,
+        "overwrite" : false,
+        "html" : false,
+        "json" : true,
+        "reportDir" : "cypress/reports"
+    }
 }
