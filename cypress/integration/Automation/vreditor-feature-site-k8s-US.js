@@ -13,6 +13,6 @@ it('vreditor-feature-site-k8s-US', () => {
         failOnStatusCode : false
     }).wait(3000);
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/220310-ar-maker-tag');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/2d-399-marker-center');
     cy.get('#yui-gen1-button').click();
 })
