@@ -13,6 +13,6 @@ it('vrviewer-feature-site', () => {
         failOnStatusCode : false
     }).wait(3000);
 
-    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('feature/220310-ar-maker-tag');
+    cy.get(':nth-child(1) > .setting-main > div > .setting-input').clear().type('white-label/louis-vuitton-2').wait(1000);
     cy.get('#yui-gen1-button').click();
 })
