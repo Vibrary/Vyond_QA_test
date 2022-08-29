@@ -11,7 +11,7 @@ describe('test `delete LiveTour` function', () => {
 
         // login to editor
         loginPage.navigate('https://vreditor.istaging.com/');
-        loginPage.enterUsername('eric@staging.com.tw');
+        loginPage.enterUsername('eric_cypress');
         loginPage.enterPassword('000000');
         loginPage.clickLogin();
 
@@ -29,8 +29,8 @@ describe('test `delete LiveTour` function', () => {
                 .click({force : true});
         */
 
-        // delete latest 10 buildings
-        for ( var i = 0; i < 10; i++ ) {
+        // delete latest 20 buildings
+        for ( var i = 0; i < 20; i++ ) {
 
             // test delete LiveTour function
             cy.contains('刪除')
