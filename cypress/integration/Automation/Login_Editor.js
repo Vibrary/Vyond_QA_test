@@ -19,7 +19,7 @@ it('Editor login', () => {
     cy.get('.lang-switcher')
         .should('contain', 'English');
 
-    loginPage.enterUsername('eric@staging.com.tw');
+    loginPage.enterUsername('eric_cypress');
     loginPage.enterPassword('000000');
     loginPage.clickLogin();
     
@@ -38,10 +38,5 @@ it('Editor login', () => {
 
     cy.get('.nav > :nth-child(2) > .nav-link')
         .click();
-
-    // drag and drop
-
-    cy.get('.i-edit-list-container > :nth-child(1)')
-        .move({ deltaX: 0, deltaY: 50, force: true });
 
 })
