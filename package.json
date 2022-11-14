@@ -1,10 +1,13 @@
 {
-  "name": "Test_1",
+  "name": "vyond_test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --reporter mochawesome"
+    "test_electron": "cypress run",
+    "test_chrome": "cypress run --browser chrome",
+    "test_report": "npx cypress run --reporter mochawesome",
+    "test_multiple_browser": "npm run test_electron && npm run test_chrome"
   },
   "keywords": [],
   "author": "",
